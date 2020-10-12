@@ -1,0 +1,8 @@
+.cat-btn-primary {
+  background-color: $cat-primary-color;
+  color: $cat-white;
+  border-color: $cat-primary-color;
+  &:hover {
+    background-color: darken($cat-primary-color, 8);
+  }
+}

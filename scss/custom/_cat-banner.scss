@@ -1,0 +1,17 @@
+.banner {
+  position: relative;
+
+  .carousel-wrapper {
+    background-image: url("../images/banner1.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .cta {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    z-index: 10;
+  }
+}
