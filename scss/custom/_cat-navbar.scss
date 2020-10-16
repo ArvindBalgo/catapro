@@ -7,19 +7,19 @@
 	width: 100%;
 	padding: 1rem;
 	border-bottom: 1px solid $cat-tertiary-color;
-;
 
 	@include media-breakpoint-down(md) {
-		padding-top: 3rem;
-		padding-bottom: 3rem;
+		padding: 3rem 0;
 	}
+  @include media-breakpoint-down(sm) {
+    padding: 1rem;
+  }
 	.toggle-button {
 		position: absolute;
 		right: 0px;
 	}
 	.site-logo {
 		position: absolute;
-		// left: 15px;
 		font-size: 1.2rem;
 		text-transform: uppercase;
 		font-weight: 900;
@@ -32,6 +32,10 @@
 
 		img {
 			height: 100%;
+      @include media-breakpoint-down(sm) {
+        height: auto;
+        width: 115px;
+      }
 		}
 		
 

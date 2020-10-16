@@ -475,8 +475,10 @@ h1, h2, h3, h4, h5,
   border-bottom: 1px solid #E9F6FB; }
   @media (max-width: 991.98px) {
     .site-navbar {
-      padding-top: 3rem;
-      padding-bottom: 3rem; } }
+      padding: 3rem 0; } }
+  @media (max-width: 767.98px) {
+    .site-navbar {
+      padding: 1rem; } }
   .site-navbar .toggle-button {
     position: absolute;
     right: 0px; }
@@ -493,6 +495,10 @@ h1, h2, h3, h4, h5,
     transition: .3s all ease; }
     .site-navbar .site-logo img {
       height: 100%; }
+      @media (max-width: 767.98px) {
+        .site-navbar .site-logo img {
+          height: auto;
+          width: 115px; } }
     @media (max-width: 991.98px) {
       .site-navbar .site-logo {
         float: left;
